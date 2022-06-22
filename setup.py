@@ -45,7 +45,6 @@ setup(
     zip_safe=False,
     keywords="apple wallet pass card",
     classifiers=[
-        "Development Status :: <...>",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",
         "Natural Language :: English",
