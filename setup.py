@@ -37,6 +37,9 @@ setup(
     packages=[
         "hardik-test",
     ],
+    install_requires=[
+        "cryptography",
+    ],
     include_package_data=True,
     license="MIT License",
     zip_safe=False,
