@@ -35,7 +35,7 @@ setup(
     author_email="harik@primedigital.tech",
     url="https://github.com/hardik-pdgt/Testing-github-actions",
     packages=[
-        "hardik-test",
+        "src",
     ],
     install_requires=[
         "cryptography",
