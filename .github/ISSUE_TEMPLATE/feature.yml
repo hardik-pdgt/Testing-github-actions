@@ -19,7 +19,7 @@ body:
         - label: Changes to existing features
 
   - type: textarea
-    id: example
+    id: example1
     attributes:
       label: Motivation
       description: |
