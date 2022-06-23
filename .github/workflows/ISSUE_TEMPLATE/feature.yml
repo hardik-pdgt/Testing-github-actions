@@ -1,0 +1,36 @@
+name: 'Request a Feature ☘️'
+description: Suggest a new feature, or changes to an existing one
+labels: [feature]
+body:
+  - type: textarea
+    id: example
+    attributes:
+      label: Overview
+      description: |
+        Give a brief overview of you issue.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Type
+      description: Please confirm and check all the following options.
+      options:
+        - label: New feature
+        - label: Changes to existing features
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Motivation
+      description: |
+        What inspired this feature request? What problems were you facing?
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm and check all the following options.
+      options:
+        - label: I have searched the [issues](https://github.com/PrimedigitalGlobal/apple-wallet/issues) of this repo and believe that this is not a duplicate.
+        - label: I have searched the [documentation](https://github.com/PrimedigitalGlobal/apple-wallet/issues) and believe that my question is not covered.
+        - label: I have described this feature request in a way that is actionable (if possible).
