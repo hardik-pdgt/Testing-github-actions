@@ -1,4 +1,4 @@
-name: Publish Package
+name: Test Build
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build_publish:
-    name: Building and Publishing Package to PYPI
+    name: Building Package
     runs-on: ubuntu-latest
 
     steps:
