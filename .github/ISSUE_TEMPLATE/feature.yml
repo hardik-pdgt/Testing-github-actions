@@ -1,6 +1,6 @@
 name: 'Request a Feature ☘️'
 description: Suggest a new feature, or changes to an existing one
-labels: [feature]
+labels: [Feature]
 body:
   - type: textarea
     id: example
